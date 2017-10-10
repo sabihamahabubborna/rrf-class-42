@@ -1,0 +1,105 @@
+/* Base css */
+body{
+    background-color: 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+margin: 0 0 15px;
+font-weight: 700;
+}
+body{
+   font-family: 'Vidaloka', serif;
+}
+html, body{
+    height: 100%;
+}
+a:hover{
+    text-decoration: none;
+}
+.shadow-section{
+    background-image: url(../img/8.jpg);
+}
+body {
+    color: #444;
+    font-size: 16px;
+}
+
+.shadow-section h2 {
+    font-size: 50px;
+}
+
+.shadow-section {
+    background-size: cover;
+    background-position: center top;
+    padding-bottom: 350px;
+    padding-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+.shadow-section:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60%;
+    z-index: -1;
+    content: "";
+ background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+}
+
+p.price-text {
+    font-size: 35px;
+    color: #D8085E;
+    font-weight: 700;
+}
+
+a.boxed-btn {
+    background: #D8085E;
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.single-counter-item {
+    background: #fff;
+    box-shadow: 2px 4px 8px #ddd;
+    margin: 5px;
+    text-align: center;
+    padding: 30px;
+}
+
+.single-counter-item
+ h2 {
+    color: #D8085E;
+    font-family: inherit;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.single-counter-item
+ i.fa {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.counter-section {
+    margin-top: -100px;
+    position: relative;
+    z-index: 2;
+}
+
